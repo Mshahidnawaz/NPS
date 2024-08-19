@@ -1,0 +1,10 @@
+Execute the following networking commands like ipconfig, tracert, telnet, netsh, ping, nslookup and netstat in the command prompt with simple topology?
+
+Devices: Routers, Pcs , Switches.
+configuration for Routers:
+Interface G0/0: IP address 192.168.1.1, Subnet Mask 255.255.255.0.
+Interface G0/1: IP address 192.168.2.1, Subnet Mask 255.255.255.0.
+  Configure the PCs:
+PC0: IP address 192.168.1.2, Subnet Mask 255.255.255.0, Default Gateway 192.168.1.1
+PC1: IP address 192.168.2.2, Subnet Mask 255.255.255.0, Default Gateway 192.168.2.1
+
